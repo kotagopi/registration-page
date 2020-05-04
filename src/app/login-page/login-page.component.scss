@@ -1,0 +1,157 @@
+.register {
+  background: transparent linear-gradient(180deg, #5aa4e2 0%, #b344ee 100%) 0% 0% no-repeat padding-box;
+  height: 680px;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.login-page {
+  background-color: #ffffff;
+width: 400px;
+height: 330px;
+padding: 20px;
+}
+.label {
+  padding: 10px 0 0 0;
+}
+.login-header {
+  font-size: 22px;
+  font-weight: 600;
+  color: #44423c;
+}
+@mixin  btn-prop {
+  border-radius: 3px;
+  font-weight: 600;;
+  padding: 5px 20px;
+  margin: 24px 0 0 0;
+}
+.login-btn {
+  @include btn-prop;
+  width: 100%;
+    background-color: blue;
+    border: 1px solid blue;
+    color: #fff;
+}
+.upload-btn {
+  @include btn-prop;
+  height: 40px;
+  width: 170px;
+  margin: 24px 24px 0 0 !important;
+  background-color: #38a72b;
+  color: white;
+  border: 1px solid #38a72b;
+}
+.reg-text {
+  font-size: 18px;
+  font-weight: 500;
+  color: blue;
+  padding-left: 4px;
+  cursor: pointer;
+}
+.p-t-16 {
+  padding-top: 16px;
+}
+.login-height {
+  height: 450px !important;
+  max-height: 450px;
+  overflow-y: scroll;
+}
+.back-login {
+  font-size: 10px;
+  color: #969191;
+  font-weight: 800;
+  cursor: pointer;
+}
+ng-select select-dropdown > div {
+  z-index: 2;
+}
+::ng-deep .mat-form-field-underline {
+  display: none;
+}
+:host ::ng-deep .mat-form-field-should-float .mat-form-field-label-wrapper {display: none;}
+:host ::ng-deep .mat-form-field-appearance-legacy .mat-form-field-infix {
+  padding: 9px;
+  border: 1px solid #dedede;
+  border-radius: 4px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-right: none;
+}
+:host ::ng-deep .mat-form-field-appearance-legacy .mat-form-field-suffix {
+  border-left: none;
+  padding: 7px 0 5px 0;
+  border-radius: 4px;
+  border: 1px solid #dedede;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+
+}
+:host ::ng-deep .mat-form-field-appearance-legacy .mat-form-field-wrapper {
+   padding-bottom: 0;
+}
+.avatar-upload {
+  position: relative;
+  max-width: 205px;
+  // margin: 10px auto 30px;
+}
+
+.avatar-upload .avatar-edit {
+  position: absolute;
+  right: 19px;
+  z-index: 1;
+  top: 13px;
+}
+
+.avatar-upload .avatar-edit input {
+  display: none;
+}
+
+.avatar-upload .avatar-edit .custom-label {
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  margin-bottom: 0;
+  border-radius: 100%;
+  background: #3efc78;
+  border: 1px solid transparent;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  font-weight: normal;
+  transition: all 0.2s ease-in-out;
+}
+
+.avatar-upload .avatar-edit .upload-image {
+  background: #3efc78;
+}
+.avatar-upload .avatar-edit .custom-label:hover {
+  opacity: 1;
+}
+
+.avatar-upload .avatar-edit .custom-label:after {
+  position: absolute;
+  text-align: center;
+  margin: auto;
+  top: 8px;
+  right: 0;
+  left: 2px;
+  width: 18px;
+}
+.avatar-upload .avatar-preview {
+  width: 80px;
+  height: 80px;
+  position: relative;
+  border-radius: 100%;
+  overflow: hidden;
+  border: 12px solid #fff;
+  -webkit-box-shadow: 0 0 45px rgba(0, 0, 0, .2);
+  -moz-box-shadow: 0 0 45px rgba(0, 0, 0, .2);
+  box-shadow: 0 0 45px rgba(0, 0, 0, .2);
+}
+.avatar-upload .avatar-preview>div {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
